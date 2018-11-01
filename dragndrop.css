@@ -1,0 +1,42 @@
+.body {
+  background-color: #222;
+}
+
+.container {
+    align-content: center;
+    margin-left: 410px;
+    margin-right: 410px;
+    background-color: white;
+}
+
+.upload-drop-zone {
+    height: 200px;
+    border-width: 2px;
+    margin-bottom: 20px;
+  }
+  
+  
+.upload-drop-zone {
+    color: rgb(82, 72, 72);
+    border-style: dashed;
+    border-radius: 25px;
+    border-color: rgb(82, 72, 72);
+    text-align: center;
+    line-height: 165px;
+
+    
+  }
+.upload-drop-zone.drop {
+    color: #222;
+    border-color: rgb(82, 72, 72);
+  }
+.button {
+   border-radius: 5px;
+  }
+
+
+
+    
+
+
+

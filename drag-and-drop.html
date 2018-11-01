@@ -1,0 +1,66 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drag and Drop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="dragndrop.css" />
+    <script src="drag-n-drop.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="Favicon.png">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>     
+</head>
+<body class="body">
+
+    <style>
+  
+        .container {
+           padding: 25px;
+           background-color: rgb(235, 243, 243);
+           height: 395px;
+           width: 395px;
+           border: 25px solid  rgb(169, 218, 241);
+           margin-left: auto;
+           margin-right: auto;
+           border-radius: 15px;
+           margin-top: 100px;
+           box-shadow: 6px 7px rgb(232, 237, 240) ;
+       
+         }
+       
+        
+        </style>
+
+        <div class="container" value="type">
+            <div class="panel panel-default">
+                <div class="panel-heading"><strong>Upload Files here!</strong> </div>
+                  <div class="panel-body">
+          
+                    <!-- Form -->
+                    <h4>Select files from your computer</h4>
+                     <form action="" method="post" enctype="multipart/form-data" id="js-upload-form">
+                       <div class="form-inline">
+                        <div class="form-group">
+                         <input type="file" name="files[]" id="js-upload-files" multiple>
+                       </div>
+                      <button class="button" type="submit" class="btn btn-sm btn-primary" id="js-upload-submit">Upload files</button>
+                    </div>
+                   </form>
+          
+                    <!-- zone -->
+                 <h4>Or drag and drop files below!</h4>
+                
+               <div class="upload-drop-zone" id="drop-zone">
+              <i class="fa fa-upload" aria-hidden="true"></i>
+                      Just drag and drop files here!
+            </div>
+            
+  
+
+  
+</body>
+</html>
